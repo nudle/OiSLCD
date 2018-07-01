@@ -16,9 +16,9 @@ void setup()
 
   //handshake
   OIS.registerFloat(CURRENT_SPEED, speedCallback); //register the command to get the speed from the game. check below for the callback
-  OIS.registerInt(DIRECTION, headingCallback);
-  OIS.registerInt(POWER_LEVEL, powerCallback);
-  OIS.registerBool(MAIN_ENGINE_BURNING, burningCallback);
+  OIS.registerInt(DIRECTION, headingCallback); //same for the current direction/heading, as an int
+  OIS.registerInt(POWER_LEVEL, powerCallback); //same for the power level percentage
+  OIS.registerBool(MAIN_ENGINE_BURNING, burningCallback); //same for whether the main engine is burning, a bool
 
   OIS.activate(); //stop syncing and ACTIVATE
 }
