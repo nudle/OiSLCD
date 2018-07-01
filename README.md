@@ -11,4 +11,5 @@
 This example was done on a 16x2 display but should be easy enough to edit to change the location of stuff to support a bigger/smaller screen.
 
 First time using an arduino so be kind 
+
 Thanks to smt for helping me out with figuring out the base code https://twitter.com/smt923
