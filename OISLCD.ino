@@ -27,23 +27,23 @@ void loop() {
 
 }
 
-void speedCallback(int channel, float data)
-{
+void speedCallback(int channel, float data)//because we registered this in setup(), this gets called every time OIS.update() is called. therefore our info is refreshed
+{                               //^ we registered a float so this needs to be a float
   lcd.setCursor(0,0); //set the cursor to the top left of the screen (0,0)
   lcd.print("SPD:"); //print something to the screen! this automatically moves the cursor
   lcd.print(data); //so we dont need to move it again before the next printout
 }
 
-void headingCallback(int channel, int data)
-{
-  lcd.setCursor(0, 1);
+void headingCallback(int channel, int data)//same as above but for an int
+{                                 
+  lcd.setCursor(0, 1); //set the cursor to the second row
   lcd.print("HDG:");
   lcd.print(data);
 }
 
 void powerCallback(int channel, int data)
 {
-  lcd.setCursor(8, 0);
+  lcd.setCursor(8, 0); //set the cursor to the 9th position of the first row
   lcd.print("PWR:");
   lcd.print(data);
 }
