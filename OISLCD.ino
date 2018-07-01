@@ -3,8 +3,8 @@
 #include <ArduinosInSpace.h>
 
 // initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
-ObjectsInSpace OIS(Serial, 4);
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12); //this defines which pins give out the data for the LCD
+ObjectsInSpace OIS(Serial, 4); //the second parameter is the number of values we're requesting from the game (4 because we've registered 4 values)
 
 void setup() 
 {
