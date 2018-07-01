@@ -6,7 +6,8 @@
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 ObjectsInSpace OIS(Serial, 4);
 
-void setup() {
+void setup() 
+{
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2); //specific for a 16x2 LCD screen (change this for different sizes)
 
@@ -22,9 +23,9 @@ void setup() {
   OIS.activate(); //stop syncing and ACTIVATE
 }
 
-void loop() {
+void loop() 
+{
   OIS.update(); //required to keep getting info from the game.
-
 }
 
 void speedCallback(int channel, float data)//because we registered this in setup(), this gets called every time OIS.update() is called. therefore our info is refreshed
