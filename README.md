@@ -14,6 +14,8 @@ This is a list of some of the possible requests from the unofficial OiS wiki htt
 
 This example was done on a 16x2 display but should be easy enough to edit to change the location of stuff to support a bigger/smaller screen.
 
+Make sure you exit to the main menu before uploading any changes or it wont update. Possibly might need to hit your reset button on the main menu no matter what but not sure.
+
 First time using an arduino so be kind 
 
 Thanks to smt for helping me out with figuring out the base code https://twitter.com/smt923
