@@ -2,6 +2,8 @@
 
 ## Requirements:
 
+* Follow this to get Objects in Space set up to communicate with your arduino https://oiswiki.sysadninjas.net/wiki/Getting_started_with_hardware
+
 * LCD library (might come with the arduino but im big noob so no idea) https://github.com/arduino-libraries/LiquidCrystal
 
 * The ArduinosInSpace library (which does most of the legwork, thank you!!) https://bitbucket.org/pjhardy/arduinosinspace/src/master/
